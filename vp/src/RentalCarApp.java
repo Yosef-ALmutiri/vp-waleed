@@ -169,10 +169,12 @@ public class RentalCarApp {
         return Pattern.matches(emailRegex, email);
     }
 
-    private void setupFrame(JFrame frame) {
+    private void setupFrame(JFrame frame)
+     {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(FRAME_WIDTH, FRAME_HEIGHT);
         frame.setLocationRelativeTo(null);
         frame.setLayout(new BorderLayout());
+
     }
 }
